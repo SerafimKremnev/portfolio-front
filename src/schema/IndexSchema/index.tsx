@@ -72,7 +72,7 @@ const Main = () => {
                         <motion.p variants={p} className={styles.p}>
                             Serafim Kremnev
                         </motion.p>
-                        <motion.div variants={item} className={styles.skills}>
+                        <motion.div className={styles.skills}>
                             {skills.map(e => <motion.div variants={p} key={e}><Skill>{e}</Skill></motion.div>)}
                         </motion.div>
                         <motion.div
@@ -262,7 +262,8 @@ const Main = () => {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true }}>
-                    <P className={styles.dream}>Моя мечта - написать востребованный проект, который сделает нашу жизнь проще.</P>
+                    <P className={styles.dream}>На данном этапе я изучаю такие технологии как
+                        React, TypeSctipt и git.</P>
                 </motion.div>
             </Container>
         </>

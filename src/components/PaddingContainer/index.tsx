@@ -10,6 +10,7 @@ interface ContainerProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement
 const P = ({children, ...props}:ContainerProps) => {
     return (
         <div {...props} className={styles.container}>
+            {children}
         </div>
     );
 };
