@@ -262,8 +262,7 @@ const Main = () => {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true }}>
-                    <P className={styles.dream}>На данном этапе я изучаю такие технологии как
-                        React, TypeSctipt и git.</P>
+                    <P className={styles.dream}>Моя мечта - написать востребованный проект, который сделает нашу жизнь проще.</P>
                 </motion.div>
             </Container>
         </>
