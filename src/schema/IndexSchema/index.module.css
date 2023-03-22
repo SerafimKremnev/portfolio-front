@@ -1,0 +1,92 @@
+.tags {
+    display: grid;
+    width: 100%;
+}
+
+.dev {
+    justify-self: end;
+    position: relative;
+    z-index: -2;
+}
+
+.p {
+    font-size: var(--fzl);
+    max-width: 20vw;
+    position: relative;
+    top: -23vh;
+}
+
+.skills {
+    display: flex;
+    gap: 8px;
+    position: relative;
+    top: -10vh;
+}
+
+.shape {
+    position: absolute;
+    z-index: -1;
+    top: 75vh;
+    width: 58vw;
+    left: 15vw;
+}
+
+.casesTitle {
+    margin-top: 40vh;
+}
+
+.cases {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.me {
+    width: 100%;
+}
+.imageMe {
+    position: relative;
+}
+.backImage {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    opacity: .5;
+    background: #570000;
+}
+
+.dots {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.i {
+    position: absolute;
+    max-width: 50vw;
+    top: 40%;
+    left: 24px;
+}
+
+.wrapperP {
+    position: absolute;
+    max-width: 469px;
+    display: grid;
+    gap: 94px;
+    right: 84px;
+    bottom: -354px;
+}
+
+.dream {
+    margin-top: 890px;
+    margin-left: 212px;
+    margin-bottom: 61px;
+    max-width: 469px;
+}

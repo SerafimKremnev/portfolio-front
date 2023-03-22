@@ -1,0 +1,46 @@
+.case {
+    border: 1px solid #000000;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 115px 1fr 58px;
+    grid-template-areas:
+        "index . year"
+        "name name name"
+        "time time ."
+    ;
+    filter: blur(2px);
+    transition: all .3s;
+}
+.case:hover {
+    filter: blur(0px);
+}
+
+.p:before {
+    content: '[';
+    opacity: .44;
+}
+.p:after {
+    content: ']';
+    opacity: .44;
+}
+
+.year {
+    opacity: 0.44;
+    grid-area: year;
+}
+
+.time {
+    grid-area: time;
+    display: flex;
+    width: 415px;
+    justify-content: space-between;
+}
+
+.name {
+    grid-area: name;
+    padding: 109px 0 69px 0;
+}
+
+.p {
+    grid-area: index;
+}

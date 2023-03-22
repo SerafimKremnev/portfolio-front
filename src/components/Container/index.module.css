@@ -1,0 +1,26 @@
+.container {
+    min-height: 200vh;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 145fr 1296fr;
+}
+
+.main {
+    border-left: 1px solid #000000;
+    position: relative;
+}
+.line1{
+
+}
+.line2{
+    left: 28vw;
+}
+.line3{
+    right: 42vw;
+}
+.line4{
+    right: 32vw;
+}
+.line5{
+    right: 21vw;
+}
