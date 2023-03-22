@@ -8,7 +8,7 @@
         "name name name"
         "time time ."
     ;
-    filter: blur(2px);
+    filter: blur(1.5px);
     transition: all .3s;
 }
 .case:hover {
