@@ -83,7 +83,6 @@ const Main = () => {
                                         delay: 1,
                                         duration: .5
                                     },
-                                    duration: 2,
                                     y: 0,
                                     opacity: 1
                                 },
@@ -106,7 +105,6 @@ const Main = () => {
                                 delay: .5,
                                 duration: .5
                             },
-                            duration: 2,
                             y: 0,
                             opacity: 1
                         },
@@ -126,7 +124,6 @@ const Main = () => {
                                     delay: .5,
                                     duration: .5
                                 },
-                                duration: 2,
                                 y: 0,
                                 opacity: 1
                             },
@@ -144,7 +141,6 @@ const Main = () => {
                                     delay: .3,
                                     duration: .5
                                 },
-                                duration: 2,
                                 y: 0,
                                 opacity: 1
                             },
@@ -165,7 +161,6 @@ const Main = () => {
                                     delay: 1,
                                     duration: .5
                                 },
-                                duration: 2,
                                 y: 0,
                                 opacity: 1
                             },
@@ -189,7 +184,6 @@ const Main = () => {
                                         delay: .3,
                                         duration: .5
                                     },
-                                    duration: 2,
                                     y: 0,
                                     opacity: 1
                                 },
@@ -207,7 +201,6 @@ const Main = () => {
                                         delay: .3,
                                         duration: .5
                                     },
-                                    duration: 2,
                                     y: 0,
                                     opacity: 1
                                 },
@@ -225,7 +218,6 @@ const Main = () => {
                                         delay: .3,
                                         duration: .5
                                     },
-                                    duration: 2,
                                     y: 0,
                                     opacity: 1
                                 },
@@ -243,7 +235,6 @@ const Main = () => {
                                         delay: .3,
                                         duration: .5
                                     },
-                                    duration: 2,
                                     y: 0,
                                     opacity: 1
                                 },
@@ -264,7 +255,6 @@ const Main = () => {
                                 delay: .3,
                                 duration: .5
                             },
-                            duration: 2,
                             y: 0,
                             opacity: 1
                         },
