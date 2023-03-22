@@ -73,7 +73,9 @@ const Main = () => {
                             Serafim Kremnev
                         </motion.p>
                         <motion.div variant={item} className={styles.skills}>
-                            {skills.map(e => <motion.div variants={p} key={e}><Skill>{e}</Skill></motion.div>)}
+                            <>
+                                {skills.map(e => <motion.div variants={p} key={e}><Skill>{e}</Skill></motion.div>)}
+                            </>
                         </motion.div>
                         <motion.div
                             variants={{
